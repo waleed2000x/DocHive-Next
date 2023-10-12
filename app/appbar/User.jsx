@@ -1,7 +1,7 @@
 "use client";
 
 export default function User() {
-  const name = "Waleed";
+  const name = "Waleeds";
   // const name = data?.user?.name;
   let firstName = "";
 
