@@ -1,0 +1,503 @@
+body {
+  position: relative;
+  margin: 0px;
+  padding: 0px;
+  background: black;
+  cursor: default;
+}
+
+.appbar {
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+}
+.appbar .appbar-name {
+  left: 50%;
+  right: 50%;
+  transform: translateX(-50% -50%);
+}
+.appbar .appbar-name p {
+  font-size: 25px;
+  margin: 0px;
+  padding-left: 25px;
+  font-weight: 700;
+  color: white;
+}
+.appbar .appbar-name p span {
+  color: rgba(67, 255, 100, 0.8509803922);
+  margin-left: 10px;
+  margin-right: 5px;
+}
+.appbar .appbar-center {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 98%;
+  height: 100px;
+  margin-top: 10px;
+  border: 3px solid rgba(255, 255, 255, 0.06);
+  border-radius: 30px;
+  background-color: rgba(255, 255, 255, 0.05);
+  box-shadow: 0 0 10px 1px rgba(0, 0, 0, 0.25);
+  -webkit-backdrop-filter: blur(10px);
+          backdrop-filter: blur(10px);
+}
+.appbar .appbar-center a {
+  text-decoration: none;
+  transition: transform 0.3s;
+}
+.appbar .appbar-center a:hover {
+  transform: scale(1.1);
+}
+.appbar .appbar-center a h1 {
+  font-size: 50px;
+  height: -moz-max-content;
+  height: max-content;
+  margin: 0px;
+  padding-left: 25px;
+  font-weight: 700;
+  color: white;
+}
+.appbar .appbar-center a h1 span {
+  color: rgba(67, 255, 100, 0.8509803922);
+}
+.appbar .appbar-center .signin-button {
+  margin-right: 20px;
+  color: white;
+  font-size: 23px;
+}
+.appbar .appbar-center .signin-button svg {
+  font-size: 28px;
+  color: rgba(67, 255, 100, 0.8509803922);
+}
+.appbar .appbar-center .login .appbar-form {
+  display: flex;
+  align-items: center;
+  height: 100px;
+}
+.appbar .appbar-center .login .appbar-form p {
+  height: 15px;
+}
+.appbar .appbar-center .login .appbar-form .appbar-inputs {
+  margin: 15px 10px 0px 0px;
+}
+.appbar .appbar-center .login .appbar-form .appbar-inputs .MuiOutlinedInput-root {
+  color: white;
+}
+.appbar .appbar-center .login .appbar-form .appbar-inputs .MuiInputLabel-root {
+  color: white;
+}
+.appbar .appbar-center .login .appbar-form .appbar-inputs .MuiOutlinedInput-notchedOutline {
+  border-color: rgba(67, 255, 100, 0.8509803922);
+}
+.appbar .appbar-center .login .appbar-form .appbar-login-button {
+  margin: 0px 5px 4px 0px;
+}
+.appbar .appbar-center .login .appbar-form .appbar-login-button {
+  color: rgba(67, 255, 100, 0.8509803922);
+  border-color: rgba(67, 255, 100, 0.8509803922);
+  font-weight: bold;
+}
+.appbar .appbar-center .login .appbar-form .appbar-login-button svg {
+  font-size: 30px;
+}
+.appbar .appbar-center .login .appbar-form .appbar-login-button:hover {
+  background-color: rgba(67, 255, 100, 0.8509803922);
+  color: black;
+}
+.appbar .appbar-center .login .appbar-form .appbar-login-button:hover svg {
+  color: black;
+}
+.appbar .appbar-center .appbar-dropdown {
+  margin-right: 20px;
+  color: white;
+}
+.appbar .appbar-center .appbar-dropdown svg {
+  font-size: 30px;
+}
+
+.landing-parent {
+  display: flex;
+  flex-direction: column;
+  min-height: 90vh;
+}
+.landing-parent .doctor-title {
+  display: flex;
+  align-items: center;
+  width: 100%;
+  min-height: 80vh;
+}
+.landing-parent .doctor-title .doctor-assist {
+  width: 40%;
+  height: 50vh;
+  margin-top: 100px;
+  opacity: 0.95;
+}
+.landing-parent .doctor-title .title-intro {
+  display: flex;
+  justify-content: center;
+  width: 60%;
+  height: 50vh;
+  margin-top: 80px;
+}
+.landing-parent .doctor-title .title-intro .title-intro-center {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  width: 80%;
+  height: 100%;
+  border: 3px solid rgba(255, 255, 255, 0.06);
+  border-radius: 30px;
+  background-color: rgba(255, 255, 255, 0.05);
+  box-shadow: 0 0 10px 1px rgba(0, 0, 0, 0.25);
+  -webkit-backdrop-filter: blur(10px);
+          backdrop-filter: blur(10px);
+}
+.landing-parent .doctor-title .title-intro .title-intro-center .stethoscope {
+  position: absolute;
+  bottom: 30px;
+  left: 70px;
+  width: 150px;
+}
+.landing-parent .doctor-title .title-intro .title-intro-center .title-heading {
+  width: 100%;
+  height: 80%;
+}
+.landing-parent .doctor-title .title-intro .title-intro-center .title-heading h1 {
+  font-size: 70px;
+  height: -moz-max-content;
+  height: max-content;
+  padding-left: 100px;
+  font-weight: 700;
+  color: white;
+}
+.landing-parent .doctor-title .title-intro .title-intro-center .title-heading h1 span {
+  color: rgba(67, 255, 100, 0.8509803922);
+}
+.landing-parent .doctor-title .title-intro .title-intro-center .title-heading .typewriter-title {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+  text-transform: uppercase;
+  font-weight: 600;
+  cursor: default;
+  font-size: 30px;
+  color: rgba(67, 255, 100, 0.8509803922);
+}
+.landing-parent .doctor-title .title-intro .title-intro-center .join-button {
+  display: flex;
+  justify-content: end;
+  justify-self: flex-end;
+  width: 100%;
+}
+.landing-parent .doctor-connect {
+  display: flex;
+  align-items: center;
+  width: 100%;
+  min-height: 90vh;
+}
+.landing-parent .doctor-connect .doctor-mobile {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 40%;
+}
+.landing-parent .doctor-connect .doctor-mobile .lottie-adjust {
+  width: 80%;
+  opacity: 0.95;
+}
+.landing-parent .doctor-connect .connect-intro {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 60%;
+  height: 100%;
+}
+.landing-parent .doctor-connect .connect-intro .connect-intro-center {
+  width: 80%;
+  height: 70%;
+  padding-bottom: 50px;
+  border: 3px solid rgba(255, 255, 255, 0.06);
+  border-radius: 30px;
+  background-color: rgba(255, 255, 255, 0.05);
+  box-shadow: 0 0 10px 1px rgba(0, 0, 0, 0.25);
+  -webkit-backdrop-filter: blur(10px);
+          backdrop-filter: blur(10px);
+}
+.landing-parent .doctor-connect .connect-intro .connect-intro-center .doctor-conversation-animation {
+  position: absolute;
+  top: 0px;
+  right: 0px;
+}
+.landing-parent .doctor-connect .connect-intro .connect-intro-center .connect-intro-centerH5 {
+  font-size: 35px;
+  padding-left: 50px;
+  color: rgba(67, 255, 100, 0.8509803922);
+  font-weight: 500;
+}
+.landing-parent .doctor-connect .connect-intro .connect-intro-center h2 {
+  font-size: 70px;
+  height: -moz-max-content;
+  height: max-content;
+  padding-left: 50px;
+  font-weight: 700;
+  color: white;
+}
+.landing-parent .doctor-connect .connect-intro .connect-intro-center p {
+  color: white;
+  padding-left: 50px;
+  font-size: 20px;
+}
+.landing-parent .doctor-connect .connect-intro .connect-intro-center span {
+  color: rgba(67, 255, 100, 0.8509803922);
+}
+.landing-parent .doctor-communicate {
+  display: flex;
+  width: 100%;
+  align-items: center;
+  min-height: 80vh;
+  width: 100%;
+}
+.landing-parent .doctor-communicate .connect-with-people {
+  display: flex;
+  flex-direction: column;
+  width: 50%;
+}
+.landing-parent .doctor-communicate .connect-with-people .connect-with-people-center {
+  position: relative;
+  width: 90%;
+  min-height: 70vh;
+  z-index: 20;
+  border: 3px solid rgba(255, 255, 255, 0.06);
+  border-radius: 30px;
+  background-color: rgba(255, 255, 255, 0.05);
+  box-shadow: 0 0 10px 1px rgba(0, 0, 0, 0.25);
+  -webkit-backdrop-filter: blur(10px);
+          backdrop-filter: blur(10px);
+}
+.landing-parent .doctor-communicate .connect-with-people .connect-with-people-center h2 {
+  font-size: 70px;
+  height: -moz-max-content;
+  height: max-content;
+  padding-left: 50px;
+  font-weight: 700;
+  color: white;
+}
+.landing-parent .doctor-communicate .connect-with-people .connect-with-people-center p {
+  color: white;
+  padding-left: 50px;
+  font-size: 20px;
+}
+.landing-parent .doctor-communicate .connect-with-people .connect-with-people-center span {
+  color: rgba(67, 255, 100, 0.8509803922);
+}
+.landing-parent .doctor-communicate .connect-with-people .connect-with-people-center .BPM {
+  position: absolute;
+  top: -30px;
+  right: -30px;
+}
+.landing-parent .doctor-communicate .connect-with-people .connect-with-peopleH5 {
+  font-size: 35px;
+  padding-left: 50px;
+  color: rgba(67, 255, 100, 0.8509803922);
+  font-weight: 500;
+}
+.landing-parent .doctor-communicate .doctor-communicate-lottie {
+  display: flex;
+  align-items: center;
+  width: 50%;
+}
+
+.profile {
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  min-height: 85vh;
+}
+.profile .chart {
+  position: absolute;
+  top: 10px;
+  right: 10px;
+  width: 180px;
+  height: 180px;
+  padding: 10px;
+  border: 3px solid rgba(255, 255, 255, 0.06);
+  border-radius: 30px;
+  background-color: rgba(255, 255, 255, 0.05);
+  box-shadow: 0 0 10px 1px rgba(0, 0, 0, 0.25);
+  -webkit-backdrop-filter: blur(10px);
+          backdrop-filter: blur(10px);
+}
+.profile .profile-center {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 70%;
+  border: 3px solid rgba(255, 255, 255, 0.06);
+  border-radius: 30px;
+  background-color: rgba(255, 255, 255, 0.05);
+  box-shadow: 0 0 10px 1px rgba(0, 0, 0, 0.25);
+  -webkit-backdrop-filter: blur(10px);
+          backdrop-filter: blur(10px);
+}
+.profile .profile-center .avatar-chart {
+  display: flex;
+}
+
+.login-parent {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  min-height: 85vh;
+}
+.login-parent .login-card {
+  display: flex;
+  width: 70%;
+  margin-top: 50px;
+  border: 3px solid rgba(255, 255, 255, 0.06);
+  border-radius: 30px;
+  background-color: rgba(255, 255, 255, 0.05);
+  box-shadow: 0 0 10px 1px rgba(0, 0, 0, 0.25);
+  -webkit-backdrop-filter: blur(10px);
+          backdrop-filter: blur(10px);
+}
+.login-parent .login-card .login-lottie {
+  position: relative;
+  display: flex;
+  align-items: center;
+  width: 50%;
+  border-right: 1px solid rgba(255, 255, 255, 0.1);
+}
+.login-parent .login-card .doctor-lottie {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  height: 100%;
+  width: 100%;
+}
+.login-parent .login-card .doctor-lottie p {
+  width: 100%;
+  text-align: center;
+  font-size: 35px;
+  font-weight: 600;
+  color: white;
+}
+.login-parent .login-card .doctor-lottie p span {
+  color: rgba(67, 255, 100, 0.8509803922);
+}
+.login-parent .login-card .inputs-login {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 50%;
+}
+.login-parent .login-card .inputs-login .signup-inputs {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+}
+.login-parent .login-card .inputs-login .signup-inputs .input {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  width: 100%;
+  margin-top: 20px;
+}
+.login-parent .login-card .inputs-login .signup-inputs .MUI-textfield-Email .MuiOutlinedInput-root {
+  color: white;
+  width: 300px;
+}
+.login-parent .login-card .inputs-login .signup-inputs .MUI-textfield-Email .MuiInputLabel-root {
+  color: rgba(67, 255, 100, 0.8509803922);
+}
+.login-parent .login-card .inputs-login .signup-inputs .MUI-textfield-Email .MuiOutlinedInput-notchedOutline {
+  border-color: rgba(67, 255, 100, 0.8509803922);
+}
+.login-parent .login-card .inputs-login .signup-inputs .MUI-textfield {
+  margin: 20px 0px 0px 0px;
+}
+.login-parent .login-card .inputs-login .signup-inputs .MUI-textfield .MuiOutlinedInput-root {
+  color: white;
+  width: 240px;
+}
+.login-parent .login-card .inputs-login .signup-inputs .MUI-textfield .MuiInputLabel-root {
+  color: rgba(67, 255, 100, 0.8509803922);
+}
+.login-parent .login-card .inputs-login .signup-inputs .MUI-textfield .MuiOutlinedInput-notchedOutline {
+  border-color: rgba(67, 255, 100, 0.8509803922);
+}
+.login-parent .login-card .inputs-login .auth-buttons {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  width: 100%;
+  height: 50%;
+}
+.login-parent .login-card .inputs-login .auth-buttons .githubButton {
+  color: white;
+  font-weight: 600;
+  border: 1px solid white;
+  padding: 10px;
+  margin: 20px 30px;
+  width: 120px;
+}
+.login-parent .login-card .inputs-login .auth-buttons .githubButton svg {
+  margin-bottom: 3px;
+  font-size: 30px;
+}
+.login-parent .login-card .inputs-login .auth-buttons .googleButton {
+  color: black;
+  background-color: white;
+  border: 0px;
+  font-weight: 600;
+  border: 1px solid white;
+  padding: 10px;
+  margin: 20px 30px;
+  width: 120px;
+}
+.login-parent .login-card .inputs-login .auth-buttons .googleButton svg {
+  margin-bottom: 3px;
+  font-size: 30px;
+}
+.login-parent .login-card .inputs-login .auth-buttons .googleButton svg {
+  color: #4c8bf5;
+}
+.login-parent .login-card .inputs-login .auth-buttons .facebookButton {
+  background-color: #3b5998;
+  border: 0px;
+  color: white;
+  font-weight: 600;
+  border: 1px solid white;
+  padding: 10px;
+  margin: 20px 30px;
+  width: 120px;
+}
+.login-parent .login-card .inputs-login .auth-buttons .facebookButton svg {
+  margin-bottom: 3px;
+  font-size: 30px;
+}
+
+.dashboard-parent {
+  display: flex;
+  width: 100%;
+  min-height: 70%;
+  justify-content: center;
+}
+.dashboard-parent .dashboard-center {
+  width: 98%;
+  margin-top: 15px;
+  border: 3px solid rgba(255, 255, 255, 0.06);
+  border-radius: 30px;
+  background-color: rgba(255, 255, 255, 0.05);
+  box-shadow: 0 0 10px 1px rgba(0, 0, 0, 0.25);
+  -webkit-backdrop-filter: blur(10px);
+          backdrop-filter: blur(10px);
+}/*# sourceMappingURL=global.css.map */
